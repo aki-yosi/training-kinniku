@@ -1,0 +1,54 @@
+
+  .training-icon {
+      width: 100vw;
+      height: 30vh;
+    }
+
+
+  .title {
+    font-size: 30px;
+  }
+
+  .lists {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+  }
+
+  .login {
+    text-decoration: none;
+    line-height: 32px;
+    margin-right: 10px;
+    color: #333333;
+  }
+  
+  .sign-up {
+    text-decoration: none;
+    color: #333333;
+  }
+  .user-nickname {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  
+  .logout {
+    text-decoration: none;
+    color: #333333;
+  }
+
+  .list_training {
+    display: flex;
+  }
+
+  .youtube-icon {
+    width: 50vw;
+    height: 30vh;
+  }
+
+  .list_name {
+    display: flex;
+    justify-content: space-around;
+  }
