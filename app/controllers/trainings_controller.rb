@@ -20,7 +20,9 @@ class TrainingsController < ApplicationController
     def edit      
     end
 
-    def show     
+    def show 
+        @comment = Comment.new
+        @comments = @training.comments.includes(:user)    
     end
 
     def update
