@@ -1,0 +1,52 @@
+ .trainings-contents {
+        background-color: #FFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10vh 0;
+ }
+ .item-contents>.title {
+    font-size: 9vh;
+    line-height: 1.4;
+    font-weight: bold;
+  }
+
+.item-contents>.subtitle {
+    font-size: 3vh;
+    margin: 1vh 0;
+    text-decoration: none;
+    color: #3ccace;
+    font-weight: bold;
+  }
+
+  .training-lists {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .training-lists>.list {
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        background: #f0f7ff;
+        border: dashed 2px #5b8bd0;/*点線*/
+  }
+
+  .item-info {
+    background-color: #FFF;
+    color: black;
+    padding: 1vw;
+  }
+  
+  .item-name {
+    font-size: 2.5vh;
+  }
+  .time {
+      font-size: 20px;
+  }
+  .text {
+      font-size: 30px;
+  }
+  .nickname {
+      font-size: 30px;
+  }
