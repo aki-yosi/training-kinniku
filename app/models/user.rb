@@ -12,6 +12,7 @@ class User < ApplicationRecord
   end
 
   has_many :trainings
+  has_many :comments
   
   validates :password, format: { with: /\A(?=.*?[a-z])(?=.*?[\d])[a-z\d]+\z/i, message: '英数文字を使用してください' }
 
