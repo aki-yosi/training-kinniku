@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   resources :trainings do
     resources :comments, only: :create
   end
+  
 
 end

@@ -1,5 +1,8 @@
 class TrainingsController < ApplicationController
+    before_action :authenticate_user!, except: [:index, :show]
     before_action :set_product, only: [:edit, :show, :update, :destroy]
+    before_action :ruby_status, only: [:edit, :update, :destroy]
+
 
     def new
         @training = Training.new
@@ -46,5 +49,11 @@ class TrainingsController < ApplicationController
 
     def set_product
         @training = Training.find(params[:id])
+    end
+
+    def ruby_status
+        if current_user.id != @training.user_id
+            redirect_to root_path 
+        end
     end
 end
