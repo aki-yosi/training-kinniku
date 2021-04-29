@@ -16,7 +16,7 @@
 
  ## DEMO
 
- ### https://gyazo.com/ea61e1c0baac5823fe72e007a2263f6a
+ ### ![](https://gyazo.com/ea61e1c0baac5823fe72e007a2263f6a)
 
  ### トップページの画像です。ここからユーザー登録をするなり、投稿ページに遷移するなりをします。
 
