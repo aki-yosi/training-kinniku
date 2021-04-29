@@ -3,6 +3,9 @@
     width: 100vw;
     height: 30vh;
   }
+  h1 {
+    text-align: center;
+  }
 
 
 .title {
