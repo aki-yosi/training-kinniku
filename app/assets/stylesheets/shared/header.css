@@ -1,9 +1,12 @@
 
   .training-icon {
     width: 100vw;
-    height: 30vh;
+    height: 35vh;
   }
   h1 {
+    text-align: center;
+  }
+  h2 {
     text-align: center;
   }
 
@@ -20,7 +23,6 @@
 
 .login {
   text-decoration: none;
-  line-height: 32px;
   margin-right: 10px;
   color: #333333;
 }
