@@ -95,6 +95,7 @@
     color: #FFF;
     margin: 20px 0px;
     padding: 2vh 10vw;
+    
   }
   .container {
     margin: 20px 0;
@@ -102,6 +103,7 @@
     box-shadow: 0 0 10px rgba(41, 41, 41, 0.2);
     background-color: white;
     box-sizing: border-box;
+    text-align: center;
   }
   
   .container h3 {
@@ -111,6 +113,7 @@
     font-size: 20px;
     color: #666;
   }
+  
   
   .comments {
     padding: 5px;
