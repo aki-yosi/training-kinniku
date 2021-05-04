@@ -14,6 +14,10 @@
     text-align: center;
   }
 
+  .items-sell-header {
+    padding: 5vh 0;
+    text-align: center;
+  }
 /* 投稿ページの位置決め */
 /* 投稿内容 */
   .new-text {
@@ -73,9 +77,10 @@
     background: #ea352d;
     border: 1px solid #ea352d;
     color: #fff;
-    padding: 15px 35%;
-    text-decoration: none;
-    
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    margin-bottom: 4vh;
   }
   
   .back-btn {
