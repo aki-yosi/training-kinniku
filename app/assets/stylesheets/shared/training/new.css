@@ -18,6 +18,16 @@
     padding: 5vh 0;
     text-align: center;
   }
+
+  .indispensable {
+    background: #ea352d;
+    margin-left: 8px;
+    padding: 3px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+  }
 /* 投稿ページの位置決め */
 /* 投稿内容 */
   .new-text {

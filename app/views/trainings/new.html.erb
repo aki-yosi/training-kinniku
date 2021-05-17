@@ -6,17 +6,17 @@
             <div class="new-text">
                 <div class="training_tile">
                     トレーニングメニュー
-                    <span class="indispensable">必須</span>
+                    <span class="indispensable">(必須)</span>
                 </div>
                 <%= f.text_area :training_title, class:"training-title", id:"item-name", placeholder:"メニュー（必須 40文字まで)", maxlength:"40" %>
                 <div class="training_time">
                     トレーニング時間(大体)
-                    <span class="indispensable">必須</span>
+                    <span class="indispensable">(必須)</span>
                 </div>
                 <%= f.text_area :training_time, class:"training-time", id:"item-name", placeholder:"トレーニング時間(1時間から2時間など)", maxlength:"25" %>
                 <div class="training_text">
                     トレーニング内容
-                    <span class="indispensable">必須</span>
+                    <span class="indispensable">(必須)</span>
                  </div>
                 <%= f.text_area :training_text, class:"training-text", id:"item-info", placeholder:"トレーニングの具体内容" ,rows:"7" ,maxlength:"1000" %>
             </div>
